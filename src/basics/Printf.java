@@ -20,7 +20,7 @@ public class Printf {
         // Integer (d)
         System.out.printf("\nYou are %d years old", age);
 
-        // Double
+        // Double (f)
         System.out.printf("\nYou are %f inches tall", height);
 
         // Boolean
