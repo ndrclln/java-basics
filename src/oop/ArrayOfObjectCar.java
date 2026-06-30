@@ -1,0 +1,16 @@
+package oop;
+
+public class ArrayOfObjectCar {
+
+    String model;
+    String color;
+
+    ArrayOfObjectCar(String model, String color){
+        this.model = model;
+        this. color = color;
+    }
+
+    void drive(){
+        System.out.println("You drive the " + this.color + " " + this.model);
+    }
+}
